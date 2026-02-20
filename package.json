@@ -1,0 +1,34 @@
+{
+  "name": "messenger-app",
+  "version": "1.0.5",
+  "author": "MrMat",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "jimp": "^0.22.8",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "electron": "^40.4.1",
+    "electron-builder": "^26.8.1"
+  },
+  "build": {
+    "appId": "com.mrmat.messenger",
+    "electronLanguages": [
+      "en-US"
+    ],
+    "win": {
+      "icon": "icon.ico",
+      "target": "nsis"
+    },
+    "extraResources": [
+      {
+        "from": "alert.mp3",
+        "to": "."
+      }
+    ]
+  }
+}
