@@ -5,17 +5,15 @@ messenger-app/
 ├─ main.js
 ├─ preload.js
 ├─ package.json
-resources├─ alert.mp3         (any short sound replaceable with your own)
+resources├─ alert.mp3         (any short sound replaceable with your own. Still may not work)
 ├─ icon.ico          (for tray, window, and exe)
 ├─ node_modules/     (after npm install)
 
-Tray icon with unread badge ✅
+Tray icon with unread red circle badge ✅
 
 Sound notifications ✅
 
 Auto-start toggle ✅
-
-No file-sharing features
 
 No terminal spam/errors shown in the installed app
 
